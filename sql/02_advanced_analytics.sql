@@ -32,3 +32,20 @@ FROM sales
 GROUP BY sub_category
 HAVING AVG(discount) > 0.20
 ORDER BY total_profit ASC;
+
+
+
+
+
+-- SELECT
+--      CASE
+--        WHEN shipping_days <= 3 THEN 'Fast (0-3 days)'
+--        WHEN shipping_days <= 5 THEN 'Medium (4-5 days)'
+--        ELSE 'Slow (6+ days)'
+--      END AS shipping_speed,
+--      COUNT(*) AS order_count,
+--      ROUND(AVG(profit_margin), 4) AS avg_profit_margin,
+--      ROUND(SUM(profit), 2) AS total_profit
+--    FROM sales
+--    GROUP BY shipping_speed
+--    ORDER BY avg_profit_margin DESC;
