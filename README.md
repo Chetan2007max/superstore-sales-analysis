@@ -34,5 +34,12 @@ An end-to-end sales analysis project using the Kaggle Superstore dataset, coveri
   - Customer cohort retention via CTEs — new customer acquisition has dropped sharply since 2014 (595 → 136 → 51 → 11 new customers/year), though retention of the original 2014 cohort remains strong
   - Profit leakage by sub-category — Tables and Bookcases lose money even at moderate discounts, while Binders stays highly profitable even at 37% avg discount, suggesting some categories simply can't absorb discounting the way others can
 
+## Day 3: Interactive Tableau Dashboard
+- Built an executive-style dashboard in Tableau Public (`dashboards/sales_dashboard.twbx`) connected to the cleaned dataset
+- **Top row:** 4 KPI cards — Total Revenue ($2.3M), Total Profit ($286K), Profit Margin (12.47%), Total Orders (5,009)
+- **Middle row:** Dual-axis line chart (Monthly Revenue vs Profit, 2014-2017) + filled map (Sales by State, shaded by revenue)
+- **Bottom row:** Sub-Category Profit bar chart with diverging red/blue conditional coloring — visually confirms Tables and Bookcases as the only loss-making sub-categories — plus a live Segment filter (Consumer/Corporate/Home Office)
+- Static export saved as `dashboards/dashboard_screenshot.png`
+
 ## Status
-🚧 In progress — more days/analysis to be added..
+🚧 In progress — more days/analysis to be added.
