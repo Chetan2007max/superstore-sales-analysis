@@ -41,6 +41,5 @@ An end-to-end sales analysis project using the Kaggle Superstore dataset, coveri
 - **Bottom row:** Sub-Category Profit bar chart with diverging red/blue conditional coloring — visually confirms Tables and Bookcases as the only loss-making sub-categories — plus a live Segment filter (Consumer/Corporate/Home Office)
 - Static export saved as `dashboards/dashboard_screenshot.png`
 
-=======
 ## Status
-🚧 In progress — more days/analysis to be added..
+🚧 In progress — more days/analysis to be added.
